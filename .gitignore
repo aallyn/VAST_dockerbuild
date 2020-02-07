@@ -1,0 +1,4 @@
+# Git ignore files
+
+# Google drive authorization
+.httr-oauth

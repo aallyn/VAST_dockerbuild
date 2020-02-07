@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  rstudio: 
+    build: .
+    ports: 
+      - "8787:8787"
+    volumes:
+      - /Users/aallyn/GitHub/SDM-convergence:/home/rstudio/SDM-convergence
+    env_file:
+      - ./secret.env
+
+
+
+      
+    
