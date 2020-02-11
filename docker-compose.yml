@@ -2,15 +2,10 @@ version: "3.7"
 
 services:
   rstudio: 
-    build: .
+    image: ajall1985/vast_dockerbuild 
     ports: 
       - "8787:8787"
     volumes:
       - /Users/aallyn/GitHub/SDM-convergence:/home/rstudio/SDM-convergence
     env_file:
       - ./secret.env
-
-
-
-      
-    
