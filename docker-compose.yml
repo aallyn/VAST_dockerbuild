@@ -6,6 +6,6 @@ services:
     ports: 
       - "8787:8787"
     volumes:
-      - /Users/aallyn/GitHub/SDM-convergence:/home/rstudio/SDM-convergence
+      - /Users/aallyn/GitHub/SDM-convergence:/home/rstudio/
     env_file:
       - ./secret.env
