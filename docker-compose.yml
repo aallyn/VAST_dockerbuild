@@ -6,7 +6,7 @@ services:
     ports: 
       - "8787:8787"
     volumes:
-      - /Users/aallyn/GitHub/SDM-convergence:/home/rstudio/
-      - ~/Desktop/Docker Data Testing:/home/rstudio/Docker Data Testing
+      # Mount project folder on Box as a volume
+      - ~/Box/Mills Lab/Projects/ForecastingChallenge:/home/rstudio/ForecastingChallenge
     env_file:
       - ./secret.env

@@ -2,3 +2,6 @@
 
 # Google drive authorization
 .httr-oauth
+
+# Secret file
+secret.env
